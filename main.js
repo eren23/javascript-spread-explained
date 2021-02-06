@@ -14,7 +14,7 @@ summedUp;
 const oldArray = ["a", "b", "c"];
 const newMember = "d";
 
-const newArray = [...oldArray, newMember];
+const newArray = [...oldArray, ...newMember];
 newArray;
 
 // Creating new array with spread instead of concat -2
